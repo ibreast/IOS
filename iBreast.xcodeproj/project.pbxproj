@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6EB9911B46D16A0003CFAB /* HarvardCheckMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A6EB9901B46D16A0003CFAB /* HarvardCheckMenu.plist */; };
+		8A6EB9931B46D3170003CFAB /* HarhardCheckBaseInfo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB9921B46D3170003CFAB /* HarhardCheckBaseInfo1.swift */; };
+		8A6EB9951B46D4520003CFAB /* harvardMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A6EB9941B46D4520003CFAB /* harvardMenuList.plist */; };
+		8A6EB9971B46DBDF0003CFAB /* HarvardCheckBaseInfo2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB9961B46DBDF0003CFAB /* HarvardCheckBaseInfo2VC.swift */; };
+		8A6EB9991B46E40E0003CFAB /* HarvardCheckBaseInfo3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB9981B46E40E0003CFAB /* HarvardCheckBaseInfo3VC.swift */; };
+		8A6EB99D1B46EA5A0003CFAB /* HarvardCheckBaseInfo4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB99C1B46EA5A0003CFAB /* HarvardCheckBaseInfo4VC.swift */; };
 		8A74DEE11B461CAB0091DA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74DEE01B461CAB0091DA2E /* AppDelegate.swift */; };
 		8A74DEE31B461CAB0091DA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74DEE21B461CAB0091DA2E /* ViewController.swift */; };
 		8A74DEE61B461CAB0091DA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A74DEE41B461CAB0091DA2E /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A6EB9901B46D16A0003CFAB /* HarvardCheckMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HarvardCheckMenu.plist; sourceTree = "<group>"; };
+		8A6EB9921B46D3170003CFAB /* HarhardCheckBaseInfo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarhardCheckBaseInfo1.swift; sourceTree = "<group>"; };
+		8A6EB9941B46D4520003CFAB /* harvardMenuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = harvardMenuList.plist; sourceTree = "<group>"; };
+		8A6EB9961B46DBDF0003CFAB /* HarvardCheckBaseInfo2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvardCheckBaseInfo2VC.swift; sourceTree = "<group>"; };
+		8A6EB9981B46E40E0003CFAB /* HarvardCheckBaseInfo3VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvardCheckBaseInfo3VC.swift; sourceTree = "<group>"; };
+		8A6EB99C1B46EA5A0003CFAB /* HarvardCheckBaseInfo4VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvardCheckBaseInfo4VC.swift; sourceTree = "<group>"; };
 		8A74DEDB1B461CAB0091DA2E /* iBreast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBreast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A74DEDF1B461CAB0091DA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A74DEE01B461CAB0091DA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +95,11 @@
 				8A74DEE71B461CAB0091DA2E /* Images.xcassets */,
 				8A74DEE91B461CAB0091DA2E /* LaunchScreen.xib */,
 				8A74DEDE1B461CAB0091DA2E /* Supporting Files */,
+				8A6EB9921B46D3170003CFAB /* HarhardCheckBaseInfo1.swift */,
+				8A6EB9941B46D4520003CFAB /* harvardMenuList.plist */,
+				8A6EB9961B46DBDF0003CFAB /* HarvardCheckBaseInfo2VC.swift */,
+				8A6EB9981B46E40E0003CFAB /* HarvardCheckBaseInfo3VC.swift */,
+				8A6EB99C1B46EA5A0003CFAB /* HarvardCheckBaseInfo4VC.swift */,
 			);
 			path = iBreast;
 			sourceTree = "<group>";
@@ -90,6 +107,7 @@
 		8A74DEDE1B461CAB0091DA2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A6EB9901B46D16A0003CFAB /* HarvardCheckMenu.plist */,
 				8A74DEDF1B461CAB0091DA2E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +212,9 @@
 			files = (
 				8A74DEE61B461CAB0091DA2E /* Main.storyboard in Resources */,
 				8A74DEEB1B461CAB0091DA2E /* LaunchScreen.xib in Resources */,
+				8A6EB9951B46D4520003CFAB /* harvardMenuList.plist in Resources */,
 				8A74DEE81B461CAB0091DA2E /* Images.xcassets in Resources */,
+				8A6EB9911B46D16A0003CFAB /* HarvardCheckMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6EB99D1B46EA5A0003CFAB /* HarvardCheckBaseInfo4VC.swift in Sources */,
+				8A6EB9991B46E40E0003CFAB /* HarvardCheckBaseInfo3VC.swift in Sources */,
+				8A6EB9971B46DBDF0003CFAB /* HarvardCheckBaseInfo2VC.swift in Sources */,
 				8A74DEE31B461CAB0091DA2E /* ViewController.swift in Sources */,
+				8A6EB9931B46D3170003CFAB /* HarhardCheckBaseInfo1.swift in Sources */,
 				8A74DEE11B461CAB0091DA2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +433,7 @@
 				8A74DEFC1B461CAB0091DA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A74DEFD1B461CAB0091DA2E /* Build configuration list for PBXNativeTarget "iBreastTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				8A74DEFF1B461CAB0091DA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
